@@ -10,7 +10,7 @@ weight_update = zeros(channel_taps,1); % inital guess of the filter weights choo
 step_size = 0.01; % step size or step length
 
 wait_bar = waitbar(0,'Starting processing');
-mu_LMS = step_size; % step length of the MCC update method
+mu_approx = step_size; % step length of the MCC update method
 experiment= 1000; % ensemble-average independent runs
 iteration = 5000; % total number of iterations done
 
@@ -49,7 +49,7 @@ for dummy_var_2 = 1:experiment
         end
         alpha = (L^(-1))'*Y; % Finding the alpha vector or approximate gradient for each vector
         e_i_approx = (d_i -u_i*w_approx); % finding error between desired output and filter output to update adaptive filter
-        w_approx = w_approx - mu_LMS*alpha; % updating the adaptive filter after finding the error using LMS algorithm
+        w_approx = w_approx - mu_approx*alpha; % updating the adaptive filter after finding the error using LMS algorithm
         W(:,1) = w_approx; % updating first vector of the W matrix
     
         
