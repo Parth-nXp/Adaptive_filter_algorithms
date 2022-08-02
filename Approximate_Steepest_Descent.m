@@ -49,7 +49,7 @@ for dummy_var_2 = 1:experiment
         end
         alpha = (L^(-1))'*Y; % Finding the alpha vector or approximate gradient for each vector
         e_i_approx = (d_i -u_i*w_approx); % finding error between desired output and filter output to update adaptive filter
-        w_approx = w_approx - mu_approx*alpha; % updating the adaptive filter after finding the error using LMS algorithm
+        w_approx = w_approx - mu_approx*alpha; % updating the adaptive filter after finding the error using approximate steepest descent algorithm
         W(:,1) = w_approx; % updating first vector of the W matrix
     
         
