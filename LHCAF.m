@@ -11,7 +11,7 @@ step_size = 0.01; % step size or step length
 
 wait_bar = waitbar(0,'Starting processing');
 mu_LHCAF = step_size; % step length of the MCC update method
-experiment= 10; % ensemble-average independent runs
+experiment= 1000; % ensemble-average independent runs
 iteration = 5000; % total number of iterations done
 
 lambda = 0.1; % parameter for LHCAF
