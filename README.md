@@ -7,3 +7,4 @@ This MATLAB code contains the implementation of the adaptive signal processing a
 5. BLMS- Block Least Mean Square Adaptive filter (A. H. Sayed, Adaptive filters. Hoboken, NJ: Wiley-Interscience, 2008.)
 6. TLMM- Total Least Mean M-Estimate (L. Li and H. Zhao, "A Robust Total Least Mean M-Estimate Adaptive Algorithm for Impulsive Noise Suppression", IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 67, no. 4, pp. 800-804, 2020.)
 7. LHCAF- Logarithmic Hyperbolic Cosine Adaptive Filter (S. Wang, W. Wang, K. Xiong, H. Iu and C. Tse, "Logarithmic Hyperbolic Cosine Adaptive Filter and Its Performance Analysis", IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 51, no. 4, pp. 2512-2524, 2021.)
+8. NLMS- Normalized Least Mean Squares Adaptive Filter (A. H. Sayed, Adaptive filters. Hoboken, NJ: Wiley-Interscience, 2008.)
