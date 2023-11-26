@@ -8,6 +8,6 @@ This MATLAB code contains the implementation of the adaptive signal processing a
 6. TLMM- Total Least Mean M-Estimate (L. Li and H. Zhao, "A Robust Total Least Mean M-Estimate Adaptive Algorithm for Impulsive Noise Suppression", IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 67, no. 4, pp. 800-804, 2020.)
 7. LHCAF- Logarithmic Hyperbolic Cosine Adaptive Filter (S. Wang, W. Wang, K. Xiong, H. Iu and C. Tse, "Logarithmic Hyperbolic Cosine Adaptive Filter and Its Performance Analysis", IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 51, no. 4, pp. 2512-2524, 2021.)
 8. NLMS- Normalized Least Mean Squares Adaptive Filter (A. H. Sayed, Adaptive filters. Hoboken, NJ: Wiley-Interscience, 2008.)
-9. AALMS- Amari Alpha Least Mean Square Adaptive Filter
+9. AALMS- Amari Alpha Least Mean Square Adaptive Filter (P. Sharma and P. M. Pradhan, "Development of Amari Alpha Divergence-Based Gradient-Descent Least Mean Square Algorithm," IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 70, no. 8, pp. 3194-3198, Aug. 2023.)
 10. LMF- Least Mean Fourth Adaptive Filter (E. Walach and B. Widrow, "The least mean fourth (LMF) adaptive algorithm and its family", IEEE Transactions on Information Theory, vol. 30, no. 2, pp. 275-283, 1984.)
 11. MVC - Maximum Versoria Criterion based Adaptive Filter (F. Huang, J. Zhang and S. Zhang, "Maximum Versoria Criterion-Based Robust Adaptive Filtering Algorithm", IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 64, no. 10, pp. 1252-1256, 2017.)
