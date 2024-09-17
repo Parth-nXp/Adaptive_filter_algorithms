@@ -1,4 +1,4 @@
-# Adaptive_filter_algorithms
+# Adaptive Filtering Algorithms
 This MATLAB code contains the implementation of the adaptive signal processing algorithms 
 1. MCC- Maximum Correntropy Criterion based Adaptive filter (A. Singh and J. C. Principe, “Using correntropy as a cost function in linear adaptive filters,” 2009 International Joint Conference on Neural Networks, 2009.)
 2. LMS- Least Mean Square Adaptive filter (A. H. Sayed, Adaptive filters. Hoboken, NJ: Wiley-Interscience, 2008.)
